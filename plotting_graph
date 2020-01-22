@@ -1,0 +1,36 @@
+                    https://www.statmethods.net/advgraphs/layout.html
+
+par(mfrow=c(2,2))
+plot(wt,mpg, main="Scatterplot of wt vs. mpg")
+plot(wt,disp, main="Scatterplot of wt vs disp")
+hist(wt, main="Histogram of wt")
+boxplot(wt, main="Boxplot of wt")
+
+
+
+
+
+
+
+
+
+
+                                    
+                                    
+                                    
+                                              https://stackoverflow.com/questions/38810854/how-to-use-layout-function-in-r
+
+
+layout(mat, widths , heights, respect = FALSE)
+layout.show(n = 1)
+
+layout(matrix(c(1,1,1,2), 2, 2, byrow = TRUE))
+## show the regions that have been allocated to each plot
+layout.show(2)
+
+
+
+layout(matrix(c(1, 1, 1,
+                2, 3, 4,
+                2, 3, 4), nrow=3, byrow=TRUE))
+layout.show(n=4)
