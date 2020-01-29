@@ -1,0 +1,14 @@
+https://www.w3resource.com/r-programming-exercises/basic/r-programming-basic-exercise-1.php
+
+
+
+age = readline(prompt="Input your name: ")      ////// scanning string
+age = as.integer(age)                        //// string to integer conversion
+print(age)                              
+
+name = readline(prompt = "Your name please")
+print(paste("My name is",name)                  /////// concatenating string
+
+
+r<-scan()                                //////// scanning unlimited inputs via runtime
+print(r)
