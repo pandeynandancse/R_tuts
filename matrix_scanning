@@ -1,0 +1,10 @@
+x1 = scan(n=4)     //// scan only 4 elements
+y1 = matrix(x1,nrow=2 , byrow=T)
+print(y1)
+
+x2 = scan(n=4)
+y2 = matrix(x2,nrow=2 , byrow=T)
+print(y2)
+
+
+
